@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+  <hibernate-mapping>
+         <class name="cn.itcast.oa.domain.Role" table="itcast_role">
+               <id name="id">
+                       <generator class="native"></generator>
+               </id>
+               <property name="name" length="32"></property>
+               <property name="description" length="128"></property>
+                 
+                 <!-- 岗位和用户多对多关系 -->
+                 <set name="users" table="itcast_user_role">
+                     <key column="roleId"></key>
+                     <many-to-many class="cn.itcast.oa.domain.User" column="userId"></many-to-many>
+                 </set>
+                 <!-- 角色和权限的多对多关系 -->
+                 <set name="privileges" table="itcast_role_privilege" lazy="false">
+                  <key column="roleId"></key>
+                  <many-to-many class="cn.itcast.oa.domain.Privilege" column="privilegeId"></many-to-many>
+                 </set>
+         </class>
+  </hibernate-mapping>

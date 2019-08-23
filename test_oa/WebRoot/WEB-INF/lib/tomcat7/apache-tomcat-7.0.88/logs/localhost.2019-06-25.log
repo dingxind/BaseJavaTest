@@ -1,0 +1,44 @@
+六月 25, 2019 12:14:13 下午 org.apache.catalina.core.ApplicationContext log
+信息: No Spring WebApplicationInitializer types detected on classpath
+六月 25, 2019 12:14:13 下午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring root WebApplicationContext
+六月 25, 2019 12:14:15 下午 org.apache.catalina.core.ApplicationContext log
+信息: Set web app root system property: 'webapp.root' = [D:\tomcat7\apache-tomcat-7.0.88\webapps\BaseProjectSSM\]
+六月 25, 2019 12:14:15 下午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing log4j from [classpath:config/log4j.properties]
+六月 25, 2019 12:14:15 下午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring FrameworkServlet 'DispatcherServlet'
+六月 25, 2019 12:14:18 下午 org.apache.catalina.core.ApplicationContext log
+信息: No Spring WebApplicationInitializer types detected on classpath
+六月 25, 2019 12:14:18 下午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring root WebApplicationContext
+六月 25, 2019 12:14:22 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextInitialized()
+六月 25, 2019 12:14:22 下午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextInitialized()
+六月 25, 2019 12:14:22 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('StockTicker', 'async.Stockticker@77da59c5')
+六月 25, 2019 12:14:22 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@760dc1bf')
+六月 25, 2019 12:17:04 下午 org.apache.catalina.core.ApplicationContext log
+信息: No Spring WebApplicationInitializer types detected on classpath
+六月 25, 2019 12:17:04 下午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring root WebApplicationContext
+六月 25, 2019 12:17:05 下午 org.apache.catalina.core.ApplicationContext log
+信息: Set web app root system property: 'webapp.root' = [D:\tomcat7\apache-tomcat-7.0.88\webapps\BaseProjectSSM\]
+六月 25, 2019 12:17:05 下午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing log4j from [classpath:config/log4j.properties]
+六月 25, 2019 12:17:05 下午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring FrameworkServlet 'DispatcherServlet'
+六月 25, 2019 12:17:08 下午 org.apache.catalina.core.ApplicationContext log
+信息: No Spring WebApplicationInitializer types detected on classpath
+六月 25, 2019 12:17:08 下午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring root WebApplicationContext
+六月 25, 2019 12:17:12 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextInitialized()
+六月 25, 2019 12:17:12 下午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextInitialized()
+六月 25, 2019 12:17:12 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('StockTicker', 'async.Stockticker@c9beaae')
+六月 25, 2019 12:17:13 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@21848ea0')
